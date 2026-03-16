@@ -31,7 +31,7 @@ export default function Privacy() {
                 <li><strong>Company Number:</strong> [COMPANY_NUMBER]</li>
                 {/* [REGISTERED_ADDRESS] */}
                 <li><strong>Registered Office:</strong> [REGISTERED_ADDRESS]</li>
-                <li><strong>Email:</strong> <a href="mailto:hello@ggapps.dev">hello@ggapps.dev</a></li>
+                <li><strong>Email:</strong> <a href="mailto:contact@ggapps.dev">contact@ggapps.dev</a></li>
               </ul>
               <p>
                 We are the data controller responsible for your personal data processed
@@ -41,7 +41,7 @@ export default function Privacy() {
                 Given the nature and scale of our processing activities, we are not
                 required to appoint a Data Protection Officer. For any data protection
                 queries, please contact us at{' '}
-                <a href="mailto:hello@ggapps.dev">hello@ggapps.dev</a>.
+                <a href="mailto:contact@ggapps.dev">contact@ggapps.dev</a>.
               </p>
 
               <h2>2. What Data We Collect</h2>
@@ -118,7 +118,7 @@ export default function Privacy() {
               </ul>
               <p>
                 To exercise any of these rights, please contact us at{' '}
-                <a href="mailto:hello@ggapps.dev">hello@ggapps.dev</a>. We will respond within one month.
+                <a href="mailto:contact@ggapps.dev">contact@ggapps.dev</a>. We will respond within one month.
               </p>
 
               <h2>10. Complaints</h2>
@@ -176,7 +176,7 @@ export default function Privacy() {
               <h2>13. Contact Us</h2>
               <p>If you have any questions about this Privacy Policy or how we handle your data:</p>
               <ul>
-                <li><strong>Email:</strong> <a href="mailto:hello@ggapps.dev">hello@ggapps.dev</a></li>
+                <li><strong>Email:</strong> <a href="mailto:contact@ggapps.dev">contact@ggapps.dev</a></li>
                 {/* [REGISTERED_ADDRESS] */}
                 <li><strong>Address:</strong> [REGISTERED_ADDRESS]</li>
               </ul>

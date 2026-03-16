@@ -71,7 +71,7 @@ export default function Footer() {
           </p>
           {/* [CONTACT_EMAIL] */}
           <p>
-            Email: <a href="mailto:hello@ggapps.dev">hello@ggapps.dev</a>
+            Email: <a href="mailto:contact@ggapps.dev">contact@ggapps.dev</a>
           </p>
         </div>
 

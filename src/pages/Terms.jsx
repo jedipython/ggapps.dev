@@ -37,7 +37,7 @@ export default function Terms() {
                 <li><strong>Company Number:</strong> [COMPANY_NUMBER]</li>
                 {/* [REGISTERED_ADDRESS] */}
                 <li><strong>Registered Office:</strong> [REGISTERED_ADDRESS]</li>
-                <li><strong>Email:</strong> <a href="mailto:hello@ggapps.dev">hello@ggapps.dev</a></li>
+                <li><strong>Email:</strong> <a href="mailto:contact@ggapps.dev">contact@ggapps.dev</a></li>
               </ul>
 
               <h2>3. Description of Service</h2>
@@ -146,7 +146,7 @@ export default function Terms() {
               <h2>13. Contact Us</h2>
               <p>If you have any questions about these Terms of Service:</p>
               <ul>
-                <li><strong>Email:</strong> <a href="mailto:hello@ggapps.dev">hello@ggapps.dev</a></li>
+                <li><strong>Email:</strong> <a href="mailto:contact@ggapps.dev">contact@ggapps.dev</a></li>
                 {/* [REGISTERED_ADDRESS] */}
                 <li><strong>Address:</strong> [REGISTERED_ADDRESS]</li>
               </ul>

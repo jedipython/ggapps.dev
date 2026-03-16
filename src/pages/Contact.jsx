@@ -22,7 +22,7 @@ export default function Contact() {
     const subject = form.elements.subject.value;
     const message = form.elements.message.value;
 
-    const mailto = `mailto:hello@ggapps.dev?subject=${encodeURIComponent(subject || 'Website Enquiry')}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`)}`;
+    const mailto = `mailto:contact@ggapps.dev?subject=${encodeURIComponent(subject || 'Website Enquiry')}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`)}`;
     window.location.href = mailto;
 
     // Show honest message — mailto just opens email client
@@ -56,7 +56,7 @@ export default function Contact() {
                 <div className="contact-block">
                   <h3>Email</h3>
                   {/* [CONTACT_EMAIL] */}
-                  <a href="mailto:hello@ggapps.dev">hello@ggapps.dev</a>
+                  <a href="mailto:contact@ggapps.dev">contact@ggapps.dev</a>
                 </div>
 
                 <div className="contact-block">
@@ -95,7 +95,7 @@ export default function Contact() {
                     <p>
                       Your email client should have opened with a pre-filled message.
                       If it didn't, please email us directly at{' '}
-                      <a href="mailto:hello@ggapps.dev">hello@ggapps.dev</a>.
+                      <a href="mailto:contact@ggapps.dev">contact@ggapps.dev</a>.
                     </p>
                   </div>
                 ) : (
