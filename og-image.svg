@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0a0a0a"/>
+  <rect x="0" y="0" width="1200" height="630" fill="url(#grad)" opacity="0.4"/>
+  <defs>
+    <radialGradient id="grad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#00e676" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <text x="600" y="270" font-family="system-ui, -apple-system, sans-serif" font-size="120" font-weight="800" fill="#00e676" text-anchor="middle" letter-spacing="-4">GG</text>
+  <text x="600" y="270" font-family="system-ui, -apple-system, sans-serif" font-size="120" font-weight="800" fill="#f0f0f0" text-anchor="middle" letter-spacing="-4" dx="155">Apps</text>
+  <text x="600" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#9a9a9a" text-anchor="middle">iOS Development Studio — United Kingdom</text>
+  <line x1="500" y1="380" x2="700" y2="380" stroke="#00e676" stroke-width="2" opacity="0.4"/>
+  <text x="600" y="430" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#787878" text-anchor="middle">ggapps.dev</text>
+</svg>
