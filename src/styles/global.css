@@ -1138,6 +1138,158 @@ address { font-style: normal; }
 }
 
 /* ===========================
+   App Support
+   =========================== */
+.support-hero .page-subtitle {
+  max-width: 680px;
+}
+
+.support-actions {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+  margin-top: var(--space-lg);
+}
+
+.support-updated {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+  margin-top: var(--space-sm);
+}
+
+.support-layout {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.8fr) minmax(0, 1.6fr);
+  gap: var(--space-2xl);
+  align-items: start;
+}
+
+.support-contact-panel {
+  position: sticky;
+  top: calc(var(--header-height) + var(--space-md));
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+}
+
+.support-contact-panel h2,
+.support-section h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: var(--space-md);
+}
+
+.support-contact-list {
+  display: grid;
+  gap: var(--space-md);
+}
+
+.support-contact-list dt {
+  color: var(--color-accent);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.support-contact-list dd {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  line-height: 1.6;
+}
+
+.support-contact-list a {
+  color: var(--color-text);
+  overflow-wrap: anywhere;
+}
+
+.support-contact-list a:hover {
+  color: var(--color-accent);
+}
+
+.support-main {
+  display: grid;
+  gap: var(--space-xl);
+}
+
+.support-section > p {
+  color: var(--color-text-secondary);
+  line-height: 1.75;
+  margin-bottom: var(--space-sm);
+}
+
+.support-topic-grid,
+.support-faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
+  gap: var(--space-md);
+}
+
+.support-topic-card {
+  min-height: 160px;
+}
+
+.support-checklist {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
+  gap: var(--space-xs) var(--space-md);
+  list-style: none;
+  margin-top: var(--space-md);
+}
+
+.support-checklist li {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  line-height: 1.6;
+  padding-left: 24px;
+  position: relative;
+}
+
+.support-checklist li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  box-shadow: 0 0 14px var(--color-accent-glow);
+}
+
+.support-inline-link {
+  display: inline-flex;
+  margin-top: var(--space-xs);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+}
+
+.support-faq-grid {
+  margin-top: var(--space-lg);
+}
+
+.support-faq-item {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+}
+
+.support-faq-item h3 {
+  font-size: 1.05rem;
+  margin-bottom: var(--space-xs);
+}
+
+.support-faq-item p {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  line-height: 1.65;
+}
+
+/* ===========================
    CTA Section
    =========================== */
 .cta-section {
@@ -1429,6 +1581,15 @@ address { font-style: normal; }
   .contact-layout {
     grid-template-columns: 1fr;
     gap: var(--space-lg);
+  }
+
+  .support-layout {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+
+  .support-contact-panel {
+    position: static;
   }
 
   .form-row {

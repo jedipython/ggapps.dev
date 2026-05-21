@@ -40,6 +40,7 @@ export default function Footer() {
               <li><Link to="/services">On-Device AI</Link></li>
               <li><Link to="/services">UI/UX Design</Link></li>
               <li><Link to="/services">App Consulting</Link></li>
+              <li><Link to="/support/trazo">Trazo Support</Link></li>
             </ul>
           </div>
 
@@ -47,6 +48,7 @@ export default function Footer() {
             <h4>Legal</h4>
             <ul>
               <li><Link to="/privacy">Privacy Policy</Link></li>
+              <li><Link to="/privacy/trazo">Trazo Privacy Policy</Link></li>
               <li><Link to="/terms">Terms of Service</Link></li>
               <li><Link to="/privacy#cookies">Cookie Policy</Link></li>
               <li><a href="#" onClick={resetCookieConsent}>Cookie Preferences</a></li>
@@ -58,16 +60,9 @@ export default function Footer() {
 
         {/* UK Companies Act 2006 / Electronic Commerce Regulations 2002 — REQUIRED */}
         <div className="footer-compliance">
-          {/* [COMPANY_NUMBER] Replace with Companies House registration number */}
+          <p>GG Apps Ltd | Company No. 17105364 | Registered in England and Wales</p>
           <p>
-            <strong>GG Apps Ltd</strong> &mdash; Company No.&nbsp;
-            <span className="placeholder">[COMPANY_NUMBER]</span>
-          </p>
-          <p>Registered in England and Wales</p>
-          {/* [REGISTERED_ADDRESS] Replace with registered office address */}
-          <p>
-            Registered Office:&nbsp;
-            <span className="placeholder">[REGISTERED_ADDRESS]</span>
+            Registered Office: Unit A, 82 James Carter Road, Mildenhall, IP28 7DE
           </p>
           {/* [CONTACT_EMAIL] */}
           <p>

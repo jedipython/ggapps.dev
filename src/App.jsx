@@ -10,6 +10,8 @@ import BlogPost from './pages/BlogPost';
 import Contact from './pages/Contact';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
+import TrazoSupport from './pages/TrazoSupport';
+import TrazoPrivacy from './pages/TrazoPrivacy';
 import NotFound from './pages/NotFound';
 
 export default function App() {
@@ -25,7 +27,9 @@ export default function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/support/trazo" element={<TrazoSupport />} />
           <Route path="/privacy" element={<Privacy />} />
+          <Route path="/privacy/trazo" element={<TrazoPrivacy />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="*" element={<NotFound />} />
         </Route>
