@@ -33,10 +33,8 @@ export default function Terms() {
               <h2>2. About Us</h2>
               <p>This website is operated by GG Apps Ltd, a company registered in England and Wales.</p>
               <ul>
-                {/* [COMPANY_NUMBER] */}
-                <li><strong>Company Number:</strong> [COMPANY_NUMBER]</li>
-                {/* [REGISTERED_ADDRESS] */}
-                <li><strong>Registered Office:</strong> [REGISTERED_ADDRESS]</li>
+                <li><strong>Company Number:</strong> 17105364</li>
+                <li><strong>Registered Office:</strong> Unit A, 82 James Carter Road, Mildenhall, IP28 7DE</li>
                 <li><strong>Email:</strong> <a href="mailto:contact@ggapps.dev">contact@ggapps.dev</a></li>
               </ul>
 
@@ -147,8 +145,7 @@ export default function Terms() {
               <p>If you have any questions about these Terms of Service:</p>
               <ul>
                 <li><strong>Email:</strong> <a href="mailto:contact@ggapps.dev">contact@ggapps.dev</a></li>
-                {/* [REGISTERED_ADDRESS] */}
-                <li><strong>Address:</strong> [REGISTERED_ADDRESS]</li>
+                <li><strong>Address:</strong> Unit A, 82 James Carter Road, Mildenhall, IP28 7DE</li>
               </ul>
             </div>
           </FadeIn>

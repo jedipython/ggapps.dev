@@ -61,16 +61,14 @@ export default function Contact() {
 
                 <div className="contact-block">
                   <h3>Registered Office</h3>
-                  {/* [REGISTERED_ADDRESS] Replace with your registered address */}
-                  <address>[REGISTERED_ADDRESS]</address>
+                  <address>Unit A, 82 James Carter Road, Mildenhall, IP28 7DE</address>
                 </div>
 
                 <div className="contact-block">
                   <h3>Company Details</h3>
                   <p>
                     GG Apps Ltd<br />
-                    {/* [COMPANY_NUMBER] */}
-                    Company No. [COMPANY_NUMBER]<br />
+                    Company No. 17105364<br />
                     Registered in England and Wales
                   </p>
                 </div>
